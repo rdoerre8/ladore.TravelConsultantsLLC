@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -67,28 +70,16 @@
             <main id="main-content">
                 <div class="" site="[object Object]" style="background-color: rgb(0, 0, 0);">
                     <a id="basic-hero-banner-0"></a>
-                    <div class="relative isolate overflow-hidden pt-14">
-                        <video class="absolute inset-0 -z-10 h-full w-full object-cover" autoplay="" muted="" playsinline="" loop="" preload="auto" oncontextmenu="return false;">
-                            <source src="https://res.cloudinary.com/dq0gbgsdy/video/upload/c_fill,g_auto,w_576,h_1024/assets/hU8fAzYVTW.mp4" media="(max-width: 576px)">
-                            &gt;<source src="https://res.cloudinary.com/dq0gbgsdy/video/upload/c_fill,g_auto,w_768,h_576/assets/hU8fAzYVTW.mp4" media="(max-width: 768px)">
-                            &gt;<source src="https://res.cloudinary.com/dq0gbgsdy/video/upload/c_fill,g_auto,w_992,h_558/assets/hU8fAzYVTW.mp4" media="(max-width: 992px)">
-                            &gt;<source src="https://res.cloudinary.com/dq0gbgsdy/video/upload/c_fill,g_auto,w_1200,h_750/assets/hU8fAzYVTW.mp4" media="(max-width: 1200px)">
-                            &gt;<source src="https://res.cloudinary.com/dq0gbgsdy/video/upload/c_fill,g_auto,w_1920,h_1080/assets/hU8fAzYVTW.mp4">
-                        </video>
-                        <div class="absolute z-0 top-0 left-0 h-full w-full bg-[#000000] lg:w-3/4 lg:bg-transparent from-[#000000] from-50% to-transparent lg:bg-gradient-to-r" style="opacity: 0.3;"></div>
-                        <div class="sm:py-48 lg:max-w-7xl relative mx-auto max-w-2xl z-10 py-32 px-8 lg:px-16">
-                            <div class="lg:w-2/3 xl:w-1/2 lg:mr-auto">
-                                <!---->
-                                <div class="text-left">
-                                    <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Exploring Europe</h2>
-                                    <div class="text-gray-100 mt-6 leading-8">Discover the beauty and culture of Europe with our experienced staff, flight bookings, hotel reservations, and vacation packages.</div>
-                                    <div class="justify-start mt-10 flex items-center gap-x-6">
-                                        <a href="#basic-contact-form-0" class="rounded-md px-3.5 py-2.5 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" style="background-color: rgb(62, 176, 73); color: rgb(255, 255, 255);">Contact Us</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   <!--- <h1>{{page.title}}</h1> >
+                   
+                   --->
+                   <ul>
+                    {% for post in site.posts %}
+                        <li>
+                            <a href="{{ppost.url }}"> {{post.title}}</a>
+                        </li>
+                    {% endfor %}
+                   </ul>
                 </div>
                 <div site="[object Object]">
                     <a id="basic-content-image-0"></a>
