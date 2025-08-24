@@ -1,0 +1,23 @@
+{"id":"89kYa51clU99Q3fGDNSg","phone":"832-687-6627","address": null,"colors": {"secondary":"#044a6f","accent":"#8ea3b7","primary":"#3eb049"
+    },"logo": {"filename":"https:\/\/res.cloudinary.com\/dq0gbgsdy\/image\/upload\/uploads\/p2QXWeXYZ.png","source":"cloudinary","type":"image"
+    },"industry": {"name":"Online Travel Agencies","services": ["Experienced Staff","Flight Bookings","Hotel Reservations","Vacation Packages"
+        ],"id":"639"
+    },"gender":"50","company":"Ladoer travel","pages": [
+        {"handle":"africa","title":"Africa"
+        },
+        {"handle":"antarctica","title":"Antarctica"
+        },
+        {"handle":"asia","title":"Asia"
+        },
+        {"handle":"australia","title":"Australia"
+        },
+        {"handle":"europe","title":"Europe"
+        },
+        {"handle":"index","title":"Homepage"
+        },
+        {"handle":"north-america","title":"North America"
+        },
+        {"handle":"south-america","title":"South America"
+        }
+    ],"plan":""
+}

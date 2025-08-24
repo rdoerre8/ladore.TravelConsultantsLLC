@@ -1,0 +1,136 @@
+{
+    "name": "Basic Header",
+    "cacheable": false,
+    "settings": [
+        {
+            "id": "logo",
+            "type": "image",
+            "label": "Logo",
+            "value": {
+                "filename": "https: //res.cloudinary.com/dq0gbgsdy/image/upload/uploads/p2QXWeXYZ.png",
+                "type": "image",
+                "source": "cloudinary"
+            }
+        },
+        {
+            "id": "logo_size",
+            "type": "range",
+            "label": "Logo Size",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "value": "40"
+        },
+        {
+            "id": "title",
+            "type": "text",
+            "label": "Logo Title",
+            "value": "Ladoer travel",
+            "info": "Even if it&#039;s not shown, this field will provide good SEO value."
+        },
+        {
+            "id": "show_title",
+            "type": "checkbox",
+            "label": "Show Logo Title",
+            "value": false,
+            "info": "If unchecked, the logo text will not be shown."
+        },
+        {
+            "id": "sticky",
+            "type": "checkbox",
+            "label": "Sticky Header?",
+            "value": true
+        },
+        {
+            "type": "header",
+            "label": "Menu Settings"
+        },
+        {
+            "id": "menu",
+            "type": "menu",
+            "label": "Menu",
+            "value": [
+                {
+                    "id": "lr9ih2u2djpe9s0f0pf",
+                    "type": "Static",
+                    "title": "About Us",
+                    "link": "#basic-content-image-0",
+                    "new_tab": false,
+                    "children": []
+                },
+                {
+                    "id": "lr9ihpyced2nht6m0o9",
+                    "type": "Static",
+                    "title": "Our Services",
+                    "link": "#three-column-images-0",
+                    "new_tab": false,
+                    "children": []
+                },
+                {
+                    "id": "lr9iibmdns4rhdwbtte",
+                    "type": "Static",
+                    "title": "Contact Us",
+                    "link": "#basic-contact-form-0",
+                    "new_tab": false,
+                    "children": []
+                },
+                {
+                    "id": "lqzjk0huquni0ca4jd",
+                    "type": "Static",
+                    "title": "832-687-6627",
+                    "link": "tel:832-687-6627",
+                    "new_tab": false,
+                    "children": []
+                },
+                {
+                    "id": "lr9iig3rd6ms7q57jbp",
+                    "type": "Dynamic",
+                    "mode": "exclude",
+                    "title": "Dynamic Menu Item",
+                    "data": [
+                        "/index"
+                    ],
+                    "new_tab": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "menu_count",
+            "type": "range",
+            "label": "Visible Menu Items",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "value": "4"
+        },
+        {
+            "type": "header",
+            "label": "Color Settings"
+        },
+        {
+            "id": "theme",
+            "type": "radio",
+            "label": "Color Theme",
+            "options": [
+                {
+                    "label": "Light",
+                    "value": "light"
+                },
+                {
+                    "label": "Medium",
+                    "value": "medium"
+                },
+                {
+                    "label": "Dark",
+                    "value": "dark"
+                },
+                {
+                    "label": "Brand",
+                    "value": "brand-colors"
+                }
+            ],
+            "value": "brand-accent"
+        }
+    ]
+}
